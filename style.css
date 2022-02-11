@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+body {
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+.login {
+  height: 100vh;
+  margin: 0;
+}
+
+/* Column-Left */
+.logo {
+  height: 40px;
+  width: 140px;
+}
+
+.photo {
+  margin-top: 80px;
+  width: 247px;
+  padding-bottom: 10px;
+}
+
+/* Column-Right */
+.col-4 {
+  height: 100vh;
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.col-8 {
+  height: 100vh;
+  padding: 200px;
+}
+
+/* Form */
+form {
+  color: #464646 !important;
+}
+form i {
+  position: relative;
+  float: right;
+  top: -30px;
+  right: -400px;
+}
+input {
+  background: #f9fafc 0% 0% no-repeat padding-box;
+  width: 424px;
+  height: 40px;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+}
+
+.signin--essentials a {
+  color: #ad0000 !important;
+  text-decoration: none;
+}
+
+button {
+  width: 424px;
+  height: 45px;
+  background: #ad0000 0% 0% no-repeat padding-box;
+  border-radius: 25px;
+  color: white;
+  border: 0;
+}
+
+.signup {
+  text-decoration: none;
+  color: #464646;
+}
+
+.red {
+  color: #ad0000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a:focus {
+  text-decoration: none;
+  color: black;
+}
