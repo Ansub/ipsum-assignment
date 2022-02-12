@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 html {
   padding: 0;
   margin: 0;
@@ -16,6 +17,7 @@ h1 {
   font-size: 50px;
   font-weight: 700;
 }
+
 .login {
   height: 100vh;
   margin: 0;
@@ -50,12 +52,14 @@ h1 {
 form {
   color: #464646 !important;
 }
+
 form i {
   position: relative;
   float: right;
   top: -30px;
   right: -400px;
 }
+
 input {
   background: #f9fafc 0% 0% no-repeat padding-box;
   width: 424px;
@@ -77,6 +81,7 @@ button {
   color: white;
   border: 0;
 }
+
 
 .signup {
   text-decoration: none;

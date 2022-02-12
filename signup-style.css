@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 html {
   padding: 0;
   margin: 0;
@@ -25,6 +26,11 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: left;
+}
+
+.card {
+  width: 644px;
+
 }
 
 .box--title {
@@ -72,4 +78,32 @@ input {
   background: #f9fafc 0% 0% no-repeat padding-box;
   border: 1px solid #e6e6e6;
   border-radius: 5px;
+}
+
+
+#apply {
+  width: 76px;
+  height: 36px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #A51414;
+  color: #A51414;
+  border-radius: 18px;
+}
+
+#create-account {
+  width: 158px;
+  height: 40px;
+  background: #A51414 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  border: 0;
+  color: white;
+}
+
+#already-registered-btn {
+  width: 192px;
+  height: 39px;
+  background: #A51414 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  border: 0;
+  color: white;
 }
