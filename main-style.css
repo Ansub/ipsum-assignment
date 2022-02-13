@@ -26,7 +26,7 @@ h1 {
 /* Column-Left */
 .logo {
   height: 40px;
-  width: 140px;
+  width: 190px;
 }
 
 .photo {
@@ -82,6 +82,11 @@ button {
   border: 0;
 }
 
+.create--account--link {
+  color: #464646;
+  text-decoration: none;
+
+}
 
 .signup {
   text-decoration: none;
