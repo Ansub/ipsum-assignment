@@ -53,6 +53,7 @@ h1 {
   align-items: left;
   justify-content: space-between;
   flex-direction: column;
+  padding-left: 20px;
 }
 
 .col-8 {
