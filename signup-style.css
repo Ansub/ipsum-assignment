@@ -17,6 +17,10 @@ h1 {
   font-weight: 700;
 }
 
+ul {
+  font-size: 14px;
+}
+
 .box {
   width: 644px;
   height: 39px;
@@ -35,10 +39,6 @@ h1 {
 
 .box--title {
   padding-left: 10px;
-}
-
-ul {
-  font-size: 14px;
 }
 
 /* Column-Left */
@@ -80,7 +80,7 @@ input {
   border-radius: 5px;
 }
 
-
+/* Buttons */
 #apply {
   width: 76px;
   height: 36px;

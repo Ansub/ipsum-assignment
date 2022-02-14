@@ -8,9 +8,25 @@ html {
   overflow-x: hidden;
 }
 
+a {
+  cursor: pointer;
+
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a:focus {
+  text-decoration: none;
+  color: black;
+}
+
 body {
   height: 100vh;
   font-family: "Roboto", sans-serif;
+
 }
 
 h1 {
@@ -18,10 +34,6 @@ h1 {
   font-weight: 700;
 }
 
-.login {
-  height: 100vh;
-  margin: 0;
-}
 
 /* Column-Left */
 .logo {
@@ -73,6 +85,8 @@ input {
   text-decoration: none;
 }
 
+/* Buttons */
+
 button {
   width: 424px;
   height: 45px;
@@ -95,14 +109,4 @@ button {
 
 .red {
   color: #ad0000;
-}
-
-a:hover {
-  text-decoration: none;
-  color: black;
-}
-
-a:focus {
-  text-decoration: none;
-  color: black;
 }
